@@ -1,0 +1,38 @@
+.add-list__form {
+    width: 240px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 18px;
+    position: relative;
+    top: -25px;
+}
+.add-list__form .button {
+    width: 100%;
+}
+.add-list__form-colors .badge {
+    width: 16px;
+    height: 16px;
+    border: 2.5px solid transparent;
+}
+.add-list__form-colors .badge:hover {
+    cursor: pointer;
+}
+.add-list__form-colors .badge.active {
+    border: 2.5px solid #525252;
+}
+.add-list__form-colors {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 12px 0;
+}
+.add-list__form-close-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.add-list__form-close-btn:hover {
+    cursor: pointer;
+}

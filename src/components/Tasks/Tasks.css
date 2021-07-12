@@ -1,0 +1,96 @@
+.tasks__title {
+    font-family: 'Zen Loop', cursive, 'Bona Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #64C4ED;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #64C4ED;
+}
+.tasks__title-pen {
+    padding: 4px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+.tasks__title:hover .tasks__title-pen {
+    opacity: 0.2;
+}
+.tasks__title-pen:hover {
+    opacity: 0.9 !important;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.tasks__items {
+    margin-top: 30px;
+}
+.tasks__items h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #c9d1d3;
+    font-weight: 500;
+    font-size: 22px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.tasks__items-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.tasks__items-checkbox input {
+    display: none;
+}
+.tasks__items-checkbox label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+    border: 2px solid #e8e8e8;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+.tasks__items-checkbox label:hover {
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+.tasks__items-checkbox input:checked + label {
+    background-color: #4dd599;
+    border: 2px solid #4dd599;
+}
+.tasks__items-title {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.tasks__form-new {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+.tasks__form-new:hover {
+    opacity: 0.8;
+}
+.tasks__form-new span {
+    font-size: 16px;
+    margin-left: 19px;
+}
+.tasks__form-new img {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+}
+
+.tasks__form-create button {
+    margin: 10px 10px 0 0;
+}

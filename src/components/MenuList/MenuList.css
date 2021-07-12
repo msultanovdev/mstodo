@@ -1,0 +1,71 @@
+.todo {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 750px;
+    min-height: 530px;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 20px #f3f3f3;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .todo__sidebar {
+    background-color: #f4f6f8;
+    width: 220px;
+    min-height: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid #f1f1f1;
+    padding: 60px 20px;
+  }
+  
+  .field {
+    background: #ffffff;
+    border: 1px solid #efefef;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+  }
+  .field:focus {
+    border-color: #17a823;
+  }
+  .button {
+    font-size: 14px;
+    background: #4DD599;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  .button:hover {
+    background: #35bb81;
+    cursor: pointer;
+  }
+  .button:active {
+    background: #2dac75;
+  }
+  .button--grey {
+    background-color: #F4F6F8;
+    color: #444444;
+  }
+  .button--grey:hover {
+    background-color: #9b9b9b;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .button--grey:active {
+    background-color: #7c7c7c;
+  }
+  .todo__tasks {
+    flex: 1;
+    padding: 60px;
+    box-sizing: border-box;
+  }
+  .button:disabled {
+    background-color: #d8d8d8;
+  }
