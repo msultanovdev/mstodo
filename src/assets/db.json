@@ -21,7 +21,7 @@
       "id": 6
     },
     {
-      "name": "Go to cinema",
+      "name": "Go to cinema 20:00",
       "colorId": 8,
       "id": 10
     },
@@ -29,6 +29,11 @@
       "name": "Play",
       "colorId": 7,
       "id": 11
+    },
+    {
+      "name": "Bosit",
+      "colorId": 6,
+      "id": 12
     }
   ],
   "tasks": [
@@ -49,6 +54,12 @@
       "text": "go to swim",
       "completed": false,
       "id": 19
+    },
+    {
+      "listId": 1,
+      "text": "Orange",
+      "completed": false,
+      "id": 20
     }
   ],
   "colors": [
