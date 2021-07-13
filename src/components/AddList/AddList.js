@@ -35,8 +35,8 @@ const AddList = ({ colors, onAdd }) => {
         axios
         .post('http://localhost:3001/lists', { name: inputValue, colorId: currentColor })
         .then(({data})=> { 
-            const color = colors.filter(c => c.id === currentColor)[0].name;
-            const listObj = {...data, color: { name: color }};
+            const color = colors.filter(c => c.id === currentColor)[0];
+            const listObj = {...data, color: { name: color.name, hex: color.hex }, tasks: []};
             onAdd(listObj);
             onClose();
          })

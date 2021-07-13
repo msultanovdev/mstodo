@@ -1,11 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import MenuList from './components/MenuList/MenuList';
 
 function App() {
 
   return (
-    <MenuList />
+    <Router>
+      <MenuList />
+    </Router>
   );
 }
 
