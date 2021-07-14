@@ -1,11 +1,6 @@
 {
   "lists": [
     {
-      "id": 1,
-      "name": "Продажи",
-      "colorId": 5
-    },
-    {
       "id": 3,
       "name": "Фильмы и сериалы",
       "colorId": 3
@@ -21,45 +16,128 @@
       "id": 6
     },
     {
-      "name": "Go to cinema 20:00",
+      "name": "Покупки",
+      "colorId": 2,
+      "id": 7
+    },
+    {
+      "name": "Встречи",
+      "colorId": 7,
+      "id": 8
+    },
+    {
+      "name": "Хлам",
+      "colorId": 4,
+      "id": 9
+    },
+    {
+      "name": "Книги",
       "colorId": 8,
       "id": 10
-    },
-    {
-      "name": "Play",
-      "colorId": 7,
-      "id": 11
-    },
-    {
-      "name": "Bosit",
-      "colorId": 6,
-      "id": 12
     }
   ],
   "tasks": [
     {
-      "listId": 1,
-      "text": "Apple",
+      "listId": 5,
+      "text": "Поправить постель",
       "completed": false,
-      "id": 9
+      "id": 20
     },
     {
       "listId": 5,
-      "text": "asdasd",
+      "text": "Постричь волосы",
       "completed": false,
-      "id": 18
+      "id": 21
     },
     {
       "listId": 6,
-      "text": "go to swim",
+      "text": "Пробежка в 6 утра",
       "completed": false,
-      "id": 19
+      "id": 22
     },
     {
-      "listId": 1,
-      "text": "Orange",
+      "listId": 6,
+      "text": "Сходить в зал после ужина",
       "completed": false,
-      "id": 20
+      "id": 23
+    },
+    {
+      "listId": 3,
+      "text": "Посмотреть Дневник Памяти вечерком",
+      "completed": false,
+      "id": 24
+    },
+    {
+      "listId": 3,
+      "text": "Начать смотреть новый сериал Netflix",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "listId": 7,
+      "text": "Купить продукты",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "listId": 7,
+      "text": "Купить напитки",
+      "completed": false,
+      "id": 27
+    },
+    {
+      "listId": 7,
+      "text": "Купить зубную пасту",
+      "completed": false,
+      "id": 28
+    },
+    {
+      "listId": 8,
+      "text": "Встреча с доктором Анджилом",
+      "completed": false,
+      "id": 29
+    },
+    {
+      "listId": 8,
+      "text": "Пойти на сходку",
+      "completed": false,
+      "id": 30
+    },
+    {
+      "listId": 9,
+      "text": "Сделать что-нибудь",
+      "completed": false,
+      "id": 31
+    },
+    {
+      "listId": 10,
+      "text": "1984!",
+      "completed": false,
+      "id": 32
+    },
+    {
+      "listId": 10,
+      "text": "Война и Мир!",
+      "completed": false,
+      "id": 33
+    },
+    {
+      "listId": 10,
+      "text": "Богатый папа и Бедный папа",
+      "completed": false,
+      "id": 34
+    },
+    {
+      "listId": 10,
+      "text": "Бизнес Аналитика",
+      "completed": false,
+      "id": 35
+    },
+    {
+      "listId": 10,
+      "text": "Психология",
+      "completed": false,
+      "id": 36
     }
   ],
   "colors": [
