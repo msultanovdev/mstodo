@@ -15,8 +15,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-3) You have to run fake json-server by your terminal: // just copy and paste the command in the terminal of project.
+3) You should install the json-server package.
+
+### `npm install json-server -g`
+
+4) You have to run fake json-server by your terminal: // just copy and paste the command in the terminal of project.
 
 ### `json-server ./src/assets/db.json --port 3001`
 
-4) Take a look, i hope you managed to lauch the project :)
+5) Take a look, i hope you managed to lauch the project :)
